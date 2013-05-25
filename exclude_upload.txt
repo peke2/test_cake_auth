@@ -6,6 +6,7 @@ tmp/cache
 tmp/sessions
 tmp/tests
 .gitignore
+empty
 local_upload.sh
 upload.sh
 exclude_upload.txt

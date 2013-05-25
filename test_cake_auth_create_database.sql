@@ -1,6 +1,6 @@
 CREATE DATABASE IF NOT EXISTS `test_cake_auth` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-CREATE TABLE IF NOT EXISTS `test_cake_auth`.`Users`(
+CREATE TABLE IF NOT EXISTS `test_cake_auth`.`users`(
 	`id` INT NOT NULL AUTO_INCREMENT,
 	`username` VARCHAR(50) NOT NULL,
 	`password` VARCHAR(50) NOT NULL,
