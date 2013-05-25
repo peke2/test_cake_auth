@@ -9,6 +9,7 @@ class UsersController extends AppController
 	{
 		$this->Auth->allow('add');
 		$this->Auth->allow('logout');
+		$this->Auth->allow('moveToTop');
 		$this->Auth->authError = "ログインしていません。ログインして下さい。";
 		$this->Auth->loginError = "ログインに失敗しました。";
 	}
