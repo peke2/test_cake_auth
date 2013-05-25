@@ -1,0 +1,11 @@
+.git
+*.tmp
+*.bak
+tmp
+tmp/cache
+tmp/sessions
+tmp/tests
+.gitignore
+local_upload.sh
+upload.sh
+exclude_upload.txt
