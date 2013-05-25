@@ -5,12 +5,19 @@ class	HelloController extends AppController
 	public	$name = 'Hello';
 	public	$components = array('Auth');
 
-	public	$autoRender = false;			//	ビューの自動参照OFF
+//	public	$autoRender = false;			//	ビューの自動参照OFF
 	public	$uses = null;					//	モデルへの自動参照無し
 
 	function	index()
 	{
-		echo	"<font size='7'><b>ハロー！</b></font>";
+		session_start();
+		var_dump($_SESSION);
 	}
+
+	function	logout()
+	{
+		$this->redirect('/users/logout');
+	}
+
 }
 ?>
